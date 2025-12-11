@@ -112,7 +112,7 @@ function BookingModal({ isOpen, onClose }) {
                     value={formData.name}
                     onChange={(e) => handleChange('name', e.target.value)}
                     placeholder="John Doe"
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg border-2 text-gray-700 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors bg-white"
                   />
                 </div>
                 <div>
@@ -124,7 +124,7 @@ function BookingModal({ isOpen, onClose }) {
                     value={formData.email}
                     onChange={(e) => handleChange('email', e.target.value)}
                     placeholder="john@example.com"
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors bg-white"
                   />
                 </div>
                 <div>
@@ -136,7 +136,7 @@ function BookingModal({ isOpen, onClose }) {
                     value={formData.phone}
                     onChange={(e) => handleChange('phone', e.target.value)}
                     placeholder="+1 (555) 000-0000"
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors bg-white"
                   />
                 </div>
               </div>
@@ -157,7 +157,7 @@ function BookingModal({ isOpen, onClose }) {
                   <select
                     value={formData.supportType}
                     onChange={(e) => handleChange('supportType', e.target.value)}
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-red-500 focus:outline-none transition-colors bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-red-500 focus:outline-none transition-colors bg-white"
                   >
                     <option value="">Select support type</option>
                     <option value="remote">Remote Support</option>
@@ -172,7 +172,7 @@ function BookingModal({ isOpen, onClose }) {
                   <select
                     value={formData.service}
                     onChange={(e) => handleChange('service', e.target.value)}
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-red-500 focus:outline-none transition-colors bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-red-500 focus:outline-none transition-colors bg-white"
                   >
                     <option value="">Select service</option>
                     {services.map((s) => (
@@ -198,7 +198,7 @@ function BookingModal({ isOpen, onClose }) {
                   <select
                     value={formData.schedule}
                     onChange={(e) => handleChange('schedule', e.target.value)}
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors bg-white"
                   >
                     <option value="asap">As Soon as Possible</option>
                     <option value="later">Schedule a Convenient Time</option>
@@ -215,7 +215,7 @@ function BookingModal({ isOpen, onClose }) {
                         type="date"
                         value={formData.selectedDate}
                         onChange={(e) => handleChange('selectedDate', e.target.value)}
-                        className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors bg-white"
+                        className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors bg-white"
                       />
                     </div>
                     <div>
@@ -225,7 +225,7 @@ function BookingModal({ isOpen, onClose }) {
                       <select
                         value={formData.selectedTime}
                         onChange={(e) => handleChange('selectedTime', e.target.value)}
-                        className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors bg-white"
+                        className="w-full p-2.5 text-sm rounded-lg text-gray-700 border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors bg-white"
                       >
                         <option value="">Select time</option>
                         {timeSlots.map((time) => (
@@ -245,7 +245,7 @@ function BookingModal({ isOpen, onClose }) {
                     onChange={(e) => handleChange('query', e.target.value)}
                     rows="2"
                     placeholder="E.g. I am unable to send emails..."
-                    className="w-full p-2.5 text-sm rounded-lg border-2 border-gray-200 focus:border-green-500 focus:outline-none transition-colors resize-none bg-white"
+                    className="w-full p-2.5 text-sm rounded-lg border-2 text-gray-700 border-gray-200 focus:border-green-500 focus:outline-none transition-colors resize-none bg-white"
                   ></textarea>
                 </div>
               </div>
