@@ -28,7 +28,7 @@ function Footer(){
             </p>
             <div className="flex items-center gap-2 text-gray-400 text-sm">
               <Mail className="w-4 h-4" />
-              <span>support@nhitservices.net</span>
+              <span>support@specticalassetit.com</span>
             </div>
           </div>
 
