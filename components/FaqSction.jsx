@@ -86,7 +86,7 @@ function FaqSection() {
                   </div>
                   <div>
                     <div className="text-xs text-white/70">Email us</div>
-                    <div className="text-sm font-semibold">support@nhit.com</div>
+                    <div className="text-sm font-semibold">support@specticalassetit.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -95,7 +95,7 @@ function FaqSection() {
                   </div>
                   <div>
                     <div className="text-xs text-white/70">Call us</div>
-                    <div className="text-sm font-semibold">1-800-NHIT-HELP</div>
+                    {/* <div className="text-sm font-semibold">1-800-NHIT-HELP</div> */}
                   </div>
                 </div>
               </div>
