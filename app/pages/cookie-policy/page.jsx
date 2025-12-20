@@ -17,8 +17,8 @@ export default function CookiePolicyPage() {
           <div className="prose prose-lg max-w-none mb-8">
             <p className="text-gray-700 leading-relaxed">
               This Cookie Policy explains how Spectical Asset IT ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at{' '}
-              <a href="https://nhitservices.net" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">
-                https://nhitservices.net
+              <a href="https://specticalassetit.com" className="text-blue-600 hover:text-blue-800" target="_blank" rel="noopener noreferrer">
+                https://specticalassetit.com
               </a>
               , ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
             </p>

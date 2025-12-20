@@ -22,12 +22,12 @@ export default function DisclaimerPage() {
             <p className="text-gray-700 leading-relaxed mb-4">
               The information provided by Spectical Asset IT ("we," "us" or "our") on{" "}
               <a
-                href="https://nhitservices.net"
+                href="https://specticalassetit.com"
                 className="text-blue-600 hover:text-blue-800"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://nhitservices.net
+                https://specticalassetit.com
               </a>{" "}
               (the "Site") and our mobile application is for general
               informational purposes only. All information on the Site and our

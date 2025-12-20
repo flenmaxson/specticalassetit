@@ -26,10 +26,10 @@ export default function PrivacyPolicyPage() {
               our practices with regards to your personal information, please
               contact us at{" "}
               <a
-                href="mailto:support@nhitservices.net"
+                href="mailto:support@specticalassetit.com"
                 className="text-blue-600 hover:text-blue-800"
               >
-                support@nhitservices.net
+                support@specticalassetit.com
               </a>
               .
             </p>
@@ -37,12 +37,12 @@ export default function PrivacyPolicyPage() {
             <p className="text-gray-700 leading-relaxed mt-4">
               When you visit our website{" "}
               <a
-                href="https://nhitservices.net"
+                href="https://specticalassetit.com"
                 className="text-blue-600 hover:text-blue-800"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://nhitservices.net
+                https://specticalassetit.com
               </a>{" "}
               (the "Website"), use our mobile application, as the case may be
               (the "App") and more generally, use any of our services (the
@@ -269,7 +269,7 @@ This information is primarily needed to maintain the security and operation of o
 
                 </li>
                 <li>
-                    <b>To post testimonials.</b> We post testimonials on our Services that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at support@nhitservices.net and be sure to include your name, testimonial location, and contact information.
+                    <b>To post testimonials.</b> We post testimonials on our Services that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at support@specticalassetit.com and be sure to include your name, testimonial location, and contact information.
 
                 </li>
                 <li>
@@ -629,7 +629,7 @@ Firebase Crash Reporting, Firebase Performance Monitoring and Sentry
               If we learn that personal information from users less than 18
               years of age has been collected, we will deactivate the account
               and take reasonable measures to promptly delete such data from our
-              records. If you become aware of any data we may have collected from children under age 18, please contact us at support@nhitservices.net.
+              records. If you become aware of any data we may have collected from children under age 18, please contact us at support@specticalassetit.com.
             </p>
           </section>
 
