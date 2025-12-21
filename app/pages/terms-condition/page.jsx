@@ -7,7 +7,8 @@ export default function TermsConditionsPage() {
 
   return (
     <MainLayout>
-        <section className="max-w-5xl text-gray-700 space-y-6 mx-auto px-4 py-30 prose prose-slate sm:prose-lg lg:prose-xl">
+      <div className="min-h-screen bg-white py-10">
+          <section className="max-w-5xl text-gray-700 space-y-6 mx-auto px-4 py-30 prose prose-slate sm:prose-lg lg:prose-xl">
   <h1 className="text-3xl font-bold mb-4">Terms & Conditions</h1>
   <p className="text-gray-700 mb-6">Last Updated: November 21, 2023</p>
 
@@ -159,6 +160,7 @@ export default function TermsConditionsPage() {
     For questions regarding these Terms, please contact: <a href="mailto:support@specticalassetit.com" className="text-blue-600 hover:underline">📧 support@specticalassetit.com</a>
   </p>
 </section>
+      </div>
 
     </MainLayout>
   );
